@@ -2,7 +2,7 @@
 
 ## 環境構築
 **Dockerビルド**
-1. `git clone git@github.com :git@github.com:butterfly-39/prectice_confirm_test_20250106.git`
+1. `git clone git@github.com :git@github.com:butterfly-39/practice_confirm_test_20250106.git`
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 > *Mac の M1・M2 チップの PC の場合、「マニフェスト リスト エントリに linux/arm64/v8 に一致するマニフェストがありません」のメッセージが表示されビルドができないことがあります。エラーが発生する場合は、docker- compose.yml ファイルの「mysql」内に「platform」の項目を追加で記載してください*
